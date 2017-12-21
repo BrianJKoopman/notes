@@ -1,0 +1,49 @@
+= An example of some notes in Markdown =
+
+This is an example file written in markdown for test viewing with [http://strapdownjs.com/ Strapdown] and conversion to mediawiki formatting.
+
+Here’s an ordered list to test bullets
+
+# First item
+# Second item
+
+* Sub list
+* that has multiple elements
+
+<ol start="3" style="list-style-type: decimal;">
+<li>Testing</li></ol>
+
+Inline-style: [[File:https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png|Logo Title Text 1]]
+
+Reference-style: [[File:https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png|Logo Title Text 2]]
+
+== Code example ==
+
+<source lang="python">s = "Python syntax highlighting"
+print s</source>
+=== Table example ===
+
+Colons can be used to align columns.
+
+{|
+! Tables
+!align="center"| Are
+!align="right"| Cool
+|-
+| col 3 is
+|align="center"| right-aligned
+|align="right"| $1600
+|-
+| col 2 is
+|align="center"| centered
+|align="right"| $12
+|-
+| zebra stripes
+|align="center"| are neat
+|align="right"| $1
+|}
+
+=== Block quotes ===
+
+<blockquote>Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
+</blockquote>

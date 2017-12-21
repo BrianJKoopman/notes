@@ -9,6 +9,9 @@ Here's an ordered list to test bullets
   * that has multiple elements
 3. Testing
 
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 Reference-style: 
 ![alt text][logo]
 
