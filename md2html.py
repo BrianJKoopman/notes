@@ -16,7 +16,7 @@ page_title = os.path.basename(args.file).replace('.md', '')
 template = "./templates/strapdown.html"
 f = open(template, 'r')
 t = Template(f.read())
-output = t.render(title = page_title, note_file = file_contents)
+output = t.render(title=page_title, note_file=file_contents)
 
 with open(os.path.join("./html/", "%s.html"%page_title), "wb") as fout:
     fout.write(output)
